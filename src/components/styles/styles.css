@@ -168,8 +168,32 @@ a {
 }
 
 .mainImg {
-  /* background-image: url("/src/components/images/background2.jpg"); */
+  background-image: url("../images/background2.jpg");
   object-fit: contain;
   max-width: 100%;
-  z-index: -1;
+  height: 100%;
+}
+
+
+.mainText
+{
+  color: white;
+  position:relative;
+  font-size: 2rem;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  text-transform: uppercase;
+}
+
+.mainText > h2
+{
+  margin-top: -30px;
+}
+
+.mainText > h1 > span,
+.mainText > h2 > span
+{
+  color: var(--greyText);
+  font-weight: bold;
 }

@@ -11,6 +11,7 @@ const MainPage = () => {
                 <TopAlert />
                 <Header />
                 <MainPhoto />
+              
             </div >
 
             <div className="grid-dual">
