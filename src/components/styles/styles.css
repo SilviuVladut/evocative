@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+
+:root {
+  --baseGreyColor: #f9f9f9;
+  --greyText: #4f4f4f;
+  --greyHover: #717171;
+}
+
+/* sets for full widht */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid-full-container {
+  display: grid;
+  /* grid-gap: 5px; */
+}
+
+.grid-item {
+  /* border: 1px red solid; */
+  text-align: center;
+}
+
+.full-width {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-dual {
+  /* margin-top: 5px; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* grid-gap: 5px; */
+}
+
+/* COMPONENTS  */
+.alert {
+  height: 5vh;
+  background-color: var(--baseGreyColor);
+  color: var(--greyText);
+  padding: 5px;
+  font-weight: bold;
+  position: relative;
+}
+.alert-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-slim {
+  color: var(--greyText);
+  border: 0;
+  opacity: 0.9;
+  background-color: transparent;
+  padding-top: 5px;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(2%, -50%);
+}
+
+.btn-slim:hover,
+.btn-slim:active {
+  opacity: 1;
+}
+
+.header-body {
+  background-color: transparent;
+  padding: 5px;
+  height: 8vh;
+  position: relative;
+}
+
+a {
+  color: var(--greyText);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.width13 {
+  width: 25vw;
+}
+
+.width23 {
+  width: 50vw;
+}
+
+.logo {
+  opacity: 0.9;
+  font-size: 1.5rem;
+  opacity: 0.9;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-25%, -50%);
+}
+
+.logo:hover,
+.logo:active {
+  opacity: 1;
+}
+
+.navLink1 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-45%, -50%);
+}
+
+.navLink2 {
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  transform: translate(45%, -50%);
+}
+
+.navTrans {
+  opacity: 0.9;
+}
+
+.navTrans:hover,
+.navTrans:active {
+  opacity: 1;
+  border-bottom: 1px solid;
+  transition: all 0.5s;
+}
+
+.navIcon {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transform: translate(25%, -50%);
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.navIcon:hover,
+.navIcon:active {
+  opacity: 1;
+}
+
+.navIcon13 {
+  padding-right: 10px;
+}
+
+.navIcon33 {
+  padding-left: 10px;
+}
+
+.boxImg {
+  width: 100%;
+  height: 87vh;
+  overflow: hidden;
+}
+
+.mainImg {
+  /* background-image: url("/src/components/images/background2.jpg"); */
+  object-fit: contain;
+  max-width: 100%;
+  z-index: -1;
+}
