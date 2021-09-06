@@ -1,5 +1,6 @@
 # evocative
 
-=======
+____________________________________
 
-# react-app -> npm install -> npm start
+# It's a react-app 
+# -> npm install -> npm start
