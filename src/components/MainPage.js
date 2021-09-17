@@ -22,9 +22,9 @@ const MainPage = () => {
 
             <div className="grid-quatro">
                 <div className="grid-item"><ProductCard /></div>
-                <div className="grid-item">SUB-HEADER</div>
-                <div className="grid-item">SUB-HEADER</div>
-                <div className="grid-item">SUB-HEADER</div>
+                <div className="grid-item"><ProductCard /></div>
+                <div className="grid-item"><ProductCard /></div>
+                <div className="grid-item"><ProductCard /></div>
             </div>
 
             <div className="grid-dual">
