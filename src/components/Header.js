@@ -6,7 +6,7 @@ const Header = () => {
 
             <div className="grid-item header-body width13">
                 <a href="/" className="logo">
-                    Logo
+                    evocative
                 </a>
             </div>
             <div className="grid-item header-body width23">
