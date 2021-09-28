@@ -6,6 +6,7 @@ import MainPhoto from "./MainPhoto.js";
 import SectionTitle from "./SectionTitle.js";
 import ProductCard from "./ProductCard.js";
 import DualButton from "./DualButton.js";
+import ThreeButtonComponent from "./ThreeButtonComponent.js";
 
 const MainPage = () => {
   return (
@@ -39,7 +40,11 @@ const MainPage = () => {
         <DualButton />
       </div>
 
-      <div className="grid-full-container" style={{ marginTop: "5px" }}>
+      <div className="grid-trio">
+        <ThreeButtonComponent />
+      </div>
+
+      <div className="grid-full-container">
         <div className="grid-item full-width">CONTENT</div>
         <div className="grid-item full-width">FOOTER</div>
       </div>
