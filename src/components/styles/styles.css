@@ -226,10 +226,28 @@ a {
   /* color: white; */
 }
 
+.darkBtn {
+  background-color: var(--greyHover);
+  color: var(--baseGreyColor);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: 2px solid var(--baseGreyColor);
+  border-radius: 18px;
+  transition: all 0.3s;
+}
+
+.darkBtn:hover,
+.darkBtn:active {
+  border-color: var(--greyText);
+  /* color: white; */
+}
+
 .section-title {
   position: relative;
   left: 4%;
-  transform: translate(0, -3%);
+  transform: translate(0, -4%);
   font-size: 1.5rem;
   text-transform: uppercase;
   margin-top: 1%;
@@ -601,4 +619,21 @@ a {
 .three-3-img > button {
   position: relative;
   top: 16vh;
+}
+
+video {
+  object-fit: cover;
+  height: 40vh;
+  width: 100%;
+  margin-top: 4vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5));
+  z-index: 0;
+}
+
+.videoContent {
+  color: var(--baseGreyColor);
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  top: -15vh;
 }

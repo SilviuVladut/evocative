@@ -7,6 +7,7 @@ import SectionTitle from "./SectionTitle.js";
 import ProductCard from "./ProductCard.js";
 import DualButton from "./DualButton.js";
 import ThreeButtonComponent from "./ThreeButtonComponent.js";
+import VideoComponent from "./VideoComponent.js";
 
 const MainPage = () => {
   return (
@@ -42,6 +43,11 @@ const MainPage = () => {
 
       <div className="grid-trio">
         <ThreeButtonComponent />
+      </div>
+
+      <div className="grid-full-container">
+        <VideoComponent />
+
       </div>
 
       <div className="grid-full-container">
