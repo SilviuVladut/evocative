@@ -1,13 +1,13 @@
 import React from 'react'
-import backgrVideo from './backgrVideo.mp4';
+import backgrVideo from './backgrVideo2.mp4';
 
 const VideoComponent = () => {
     return (
         <>
             <div className="grid-item">
-                <div>
-                    <video muted autoPlay loop src={backgrVideo} type="video/mp4" />
-                </div>
+
+                <video muted autoPlay loop src={backgrVideo} type="video/mp4" />
+
                 <div className="videoContent">
                     <h2>
                         be the best, be evocative!

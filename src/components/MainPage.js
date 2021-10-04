@@ -47,11 +47,9 @@ const MainPage = () => {
 
       <div className="grid-full-container">
         <VideoComponent />
-
       </div>
 
       <div className="grid-full-container">
-        <div className="grid-item full-width">CONTENT</div>
         <div className="grid-item full-width">FOOTER</div>
       </div>
     </>
