@@ -12,10 +12,10 @@ const Header = () => {
             <div className="grid-item header-body width23">
                 <div className="grid-dual">
                     <div className="navLink1 navTrans">
-                        <a href="/products/women">Women</a>
+                        <a href="/products/women">Femei</a>
                     </div>
                     <div className="navLink2 navTrans">
-                        <a href="/products/men" >Men</a>
+                        <a href="/products/men" >barbati</a>
                     </div>
                 </div>
             </div>

@@ -4,16 +4,14 @@ import backgrVideo from './backgrVideo2.mp4';
 const VideoComponent = () => {
     return (
         <>
-            <div className="grid-item">
-
-                <video muted autoPlay loop src={backgrVideo} type="video/mp4" />
-
+            <div className="grid-item videoCompBox">
                 <div className="videoContent">
                     <h2>
-                        be the best, be evocative!
+                        Cele mai calitative echipamente sportive, doar pentru tine!
                     </h2>
-                    <button className="darkBtn">shop</button>
+                    <button className="mainBtn">Vezi mai mult</button>
                 </div>
+                <video muted autoPlay loop src={backgrVideo} type="video/mp4" />
             </div >
         </>
     )

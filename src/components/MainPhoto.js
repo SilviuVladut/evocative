@@ -6,9 +6,9 @@ const MainPhoto = () => {
             <div className="grid-item full-width boxImg">
                 <div className="mainImg">
                     <div className="mainText" >
-                        <h1>be <span>you</span></h1>
-                        <h2>be <span>evocative</span></h2>
-                        <button className="mainBtn">shop</button>
+                        <h1> Cele mai noi <span> articole </span></h1>
+                        <h2>doar  <span> pentru tine </span></h2>
+                        <button className="mainBtn">Cumpara</button>
                     </div>
                 </div>
 

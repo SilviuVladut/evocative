@@ -8,6 +8,8 @@ import ProductCard from "./ProductCard.js";
 import DualButton from "./DualButton.js";
 import ThreeButtonComponent from "./ThreeButtonComponent.js";
 import VideoComponent from "./VideoComponent.js";
+import Footer from "./Footer.js";
+
 
 const MainPage = () => {
   return (
@@ -50,7 +52,7 @@ const MainPage = () => {
       </div>
 
       <div className="grid-full-container">
-        <div className="grid-item full-width">FOOTER</div>
+        <Footer />
       </div>
     </>
   );

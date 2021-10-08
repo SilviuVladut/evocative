@@ -11,7 +11,7 @@ const TopAlert = () => {
         <div className="grid-item full-width">
             <div className="alert" id="alert1">
                 <div className="alert-middle">
-                    Free transport fee for minimum XXX $ shopping!
+                    Transport gratuit la comenzi de minim 150 lei!
                 </div>
                 <button className="btn-slim" onClick={() => closeAlert()}>
                     <ion-icon name="close-outline"></ion-icon>

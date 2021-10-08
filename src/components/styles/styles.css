@@ -572,7 +572,7 @@ a {
 .three-section-btn {
   width: 100%;
   height: 40vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .three-1-img {
@@ -622,18 +622,38 @@ a {
 }
 
 video {
+  margin-top: -5vh;
   object-fit: cover;
-  height: 40vh;
+  height: 45vh;
   width: 100%;
-  margin-top: 4vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5));
-  z-index: 0;
+  position: relative;
+  z-index: -1;
 }
 
 .videoContent {
   color: var(--baseGreyColor);
-  text-transform: uppercase;
   position: relative;
-  z-index: 1;
-  top: -15vh;
+  top: 35vh;
 }
+
+/* footer */
+footer {
+  background-color: var(--baseGreyColor);
+  margin-top: 3vh;
+  border-top: 1px solid var(--baseGreyColor);
+}
+
+.row-1-footer {
+  padding-top: 2vh;
+  font-size: 150%;
+}
+
+.row-2-footer {
+  font-size: 90%;
+}
+
+.row-3-footer {
+  font-size: 80%;
+  padding-bottom: 2vh;
+}
+/* */
